@@ -1,0 +1,3 @@
+python -m http.server #create a simple server on folder to transfer the data to virtual machine
+wget 192.168.0.107:8000/file #get a file
+python map_reduce.py -r hadoop --hadoop-streaming-jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-steaming.jar df_netflix.csv #execute the the MR with Hadoop
