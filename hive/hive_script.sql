@@ -3,4 +3,4 @@ CREATE TABLE netflix_shows (index int,id string,title string,type string,descrip
 #select 
 SELECT title, release_year, imdb_score, imdb_votes, genres FROM netflix_shows WHERE genres LIKE '%animation%' AND imdb_votes > 6000 AND release_year >2016 AND imdb_score > 7.0;
 
-LOAD DATA INPATH 'user/df_netflix.csv' INTO TABLE netflix_shows;
+LOAD DATA INPATH 'tests-hive/df_netflix.csv' INTO TABLE netflix_shows;
