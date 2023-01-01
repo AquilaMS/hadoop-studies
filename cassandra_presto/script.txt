@@ -1,0 +1,1 @@
+./presto.jar --server localhost:8080 --catalog cassandra --schema default --output-format CSV_HEADER --execute "SELECT * FROM cassandra.ks_imdb.imdb;" --output-format CSV_HEADER > out_alldata.csv

@@ -18,7 +18,7 @@ if __name__ == '__main__':
         .groupBy('original_language')\
         .count()
     language_average.join(count_language, ['original_language'], 'inner').sort(f.desc('count')).show()
-
+    
     spark.stop()
 
 
