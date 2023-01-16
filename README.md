@@ -1,4 +1,8 @@
 
+# Hadoop Studies
+
+O objetivo desses projetos é ter uma noção geral de como algumas ferramentas que integram o ecossistema Hadoop funcionam.
+
 ## Cassandra
 
 - Um aplicação que carrega um CSV para um banco de dados do Cassandra e que é lido pelo Pyspark. 
